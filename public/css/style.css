@@ -1,0 +1,126 @@
+body {
+    font-family:'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h2, h3 {
+    color: #00a2c6;
+}
+footer {
+    
+    padding: 5px;
+    color: white;
+    background-color: #00a2c6;
+    text-align: center;
+    font-weight: bold;
+    
+}
+nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    font-weight: bold;
+}
+.container {
+    width: 300px; /* Lebar box model */
+    height: 200px; /* Tinggi box model */
+    border: 2px solid #333; /* Garis tepi */
+    position: relative; /* Menjadikan posisi relatif terhadap parent */
+}
+
+input[type="text"] {
+    width: 50%; /* Lebar input */
+    padding: 12px; /* Ruang di dalam input */
+    margin: 20px; /* Ruang luar input */
+    position: absolute; /* Menjadikan posisi absolut */
+    top: 0; /* Jarak dari atas */
+    left: 40%; /* Mengatur posisi horizontal ke tengah */
+    transform: translateX(-42%); /* Menggeser input ke kiri sejauh setengah dari lebarnya */
+}
+.button {
+    background-color: #00a2c6;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 71%;
+}
+input[type="textarea"] {
+    width: 59%; 
+    padding: 12px 10px; 
+    margin: 20px;
+    position: absolute;
+    top: 15%; 
+    left: 19%; 
+}
+.card1{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10px;
+    position: relative;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px
+}
+.search{
+    text-align: center;
+    padding: 240px;
+    margin-top: auto;
+}
+nav li{
+    display: inline;
+    list-style-type: none; /*menghilangkan tanda titik unorderedlist*/
+    margin-right: 20px;
+}
+nav {
+    background-color: #00a2c6;
+    padding: 5px;
+    text-align: right;
+}
+.logo{
+    text-align: left;
+}
+main {
+    padding: 20px; 
+    display:flow-root;
+}
+.login{
+    text-align: center;
+}
+.btn {
+    background-color: #00a2c6;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px 2px;
+   
+}
+input[type="password"] {
+    width: 30%; 
+    padding: 12px 5px; 
+    margin: 5px;
+}
