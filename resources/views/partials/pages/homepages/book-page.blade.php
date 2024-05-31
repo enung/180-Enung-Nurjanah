@@ -5,14 +5,14 @@
     <hr class="star-dark mb-5">
     <div class="row">
       <div class="col-md-6 col-lg-4">
-        <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+        <a class="portfolio-item d-block mx-auto" href="">
           <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
             <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid" src="{{ asset('img/fiqih1.jpg') }}" alt="">
-        </a>
+          <embed src="{{ asset('book/panduan_sholat.pdf') }}" type="application/pdf" width="100%" height="530" />
+          </a>
       </div>
       <div class="col-md-6 col-lg-4">
         <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">

@@ -27,14 +27,14 @@
 	<link rel="stylesheet" href="{{ asset('template/css/awesome-bootstrap-checkbox.css') }}">
 	<!-- Admin Stye -->
 	<link rel="stylesheet" href="{{ asset('template/css/style.css')  }}">
-	<script src="{{ asset('js/jquery.js') }}"></script>
-	<script src="{{ asset('js/jquery.min.js') }}"></script>
+	<script src="{{ asset('template/js/jquery.js') }}"></script>
+	<script src="{{ asset('template/js/jquery.min.js') }}"></script>
 </head>
 
 <body>
-<div>
+	@include("partials.pages.dashboard.header")
+	@include("partials.pages.dashboard.sidebar")
 	@yield("content")
-</div>
 
 	<!-- Loading Scripts -->
 	<script src="{{ asset('template/js/jquery.min.js') }}"></script>
@@ -46,6 +46,7 @@
 	<script src="{{ asset('template/js/fileinput.js') }}"></script>
 	<script src="{{ asset('template/js/chartData.js') }}"></script>
 	<script src="{{ asset('template/js/main.js') }}"></script>
+	<script src="{{ asset('js/load-content.js') }}"></script>
 
 </body>
 

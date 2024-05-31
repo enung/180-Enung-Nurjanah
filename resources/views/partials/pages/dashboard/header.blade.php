@@ -7,7 +7,7 @@
 				<ul>
 					<li><a href="#">My Account</a></li>
 					<li><a href="#">Edit Account</a></li>
-					<li><a href="#">Logout</a></li>
+					<li><a href="{{ url('/logout') }}">Logout</a></li>
 				</ul>
 			</li>
 		</ul>

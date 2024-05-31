@@ -1,16 +1,17 @@
   <!-- Header -->
   <header class="masthead bg-primary text-white text-center">
     <div class="container">
-     <center><img data-toggle="modal" data-target="#myModal" src="{{ asset('/img/icon.png') }}" alt="Avatar" width="30%" /> </center>
+     <center><img data-toggle="modal" data-target="#myModal" src="{{ asset('/img/icon1.png') }}" alt="Avatar" width="30%" /> </center>
      <div class="row">
       <div class="col-lg-6 mx-auto">
-       <form name="sentMessage" id="contactForm" novalidate="novalidate">
+       <form action="{{ url('/question/set') }}" method="POST">
+        @csrf
         <div class="control-group">
           <div class="form-group">
             <label></label>
             <div class="row">
               <div class="col-lg-10">
-               <input class="form-control input-sm" id="name" type="text" name="pertanyaan" placeholder="Search" required="required" data-validation-required-message="Silahkan Inputkan Pertanyaan Anda">
+               <input class="form-control input-sm" id="name" type="text" name="question" placeholder="Search" required="required" data-validation-required-message="Silahkan Inputkan Pertanyaan Anda">
                <p class="help-block text-danger"></p>
              </div>
              <div class="col-lg-2">
